@@ -1,0 +1,15 @@
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\bin\Debug\net5.0\Project3.DataLayer.deps.json
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\bin\Debug\net5.0\Project3.DataLayer.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\bin\Debug\net5.0\ref\Project3.DataLayer.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\bin\Debug\net5.0\Project3.DataLayer.pdb
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\bin\Debug\net5.0\Project3.Common.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\bin\Debug\net5.0\Project3.Common.pdb
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.csproj.AssemblyReference.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.AssemblyInfoInputs.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.AssemblyInfo.cs
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.csproj.CopyComplete
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\ref\Project3.DataLayer.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.DataLayer\obj\Debug\net5.0\Project3.DataLayer.pdb

@@ -1,0 +1,14 @@
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\bin\Debug\net5.0\Project3.Common.deps.json
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\bin\Debug\net5.0\Project3.Common.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\bin\Debug\net5.0\ref\Project3.Common.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\bin\Debug\net5.0\Project3.Common.pdb
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.csproj.AssemblyReference.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.Properties.Resource.resources
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.csproj.GenerateResource.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.AssemblyInfoInputs.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.AssemblyInfo.cs
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.csproj.CoreCompileInputs.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\ref\Project3.Common.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Common\obj\Debug\net5.0\Project3.Common.pdb

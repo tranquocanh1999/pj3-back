@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3\\Project3.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj",
+        "projectName": "Project3.Common",
+        "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj",
+        "packagesPath": "C:\\Users\\Q.Anh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q.Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MiNET": {
+              "target": "Package",
+              "version": "[1.0.2257, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.DataLayer\\Project3.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.DataLayer\\Project3.DataLayer.csproj",
+        "projectName": "Project3.DataLayer",
+        "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.DataLayer\\Project3.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Q.Anh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q.Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj": {
+                "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Service\\Project3.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Service\\Project3.Service.csproj",
+        "projectName": "Project3.Service",
+        "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Service\\Project3.Service.csproj",
+        "packagesPath": "C:\\Users\\Q.Anh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q.Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj": {
+                "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj"
+              },
+              "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.DataLayer\\Project3.DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.DataLayer\\Project3.DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3\\Project3.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3\\Project3.Api.csproj",
+        "projectName": "Project3.Api",
+        "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3\\Project3.Api.csproj",
+        "packagesPath": "C:\\Users\\Q.Anh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Q.Anh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj": {
+                "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Common\\Project3.Common.csproj"
+              },
+              "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Service\\Project3.Service.csproj": {
+                "projectPath": "C:\\Users\\Q.Anh\\Desktop\\Project3\\Project3.Service\\Project3.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

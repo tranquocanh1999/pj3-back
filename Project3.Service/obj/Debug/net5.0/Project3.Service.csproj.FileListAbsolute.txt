@@ -1,0 +1,17 @@
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.Service.deps.json
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.Service.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\ref\Project3.Service.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.Service.pdb
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.Common.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.DataLayer.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.Common.pdb
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\bin\Debug\net5.0\Project3.DataLayer.pdb
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.csproj.AssemblyReference.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.AssemblyInfoInputs.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.AssemblyInfo.cs
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.csproj.CoreCompileInputs.cache
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.csproj.CopyComplete
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\ref\Project3.Service.dll
+C:\Users\Q.Anh\Desktop\Project3\Project3.Service\obj\Debug\net5.0\Project3.Service.pdb

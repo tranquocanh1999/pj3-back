@@ -44,7 +44,7 @@ namespace Project3.DataLayer
         /// </summary>
         /// <param name="id"> danh sách  khóa chính đối tượng cần xóa</param>
         /// <returns>trả về số dòng được thay đổi </returns>
-        public int Delete(string IDs)
+        public virtual int Delete(string IDs)
         {
 
             var sqlQuery = $" UPDATE {className} e SET e.isDelete = 1 WHERE id IN({IDs});";
@@ -146,7 +146,7 @@ namespace Project3.DataLayer
 
         public string GetCode()
         {
-            var sql = $"SELECT {className}Code FROM {className} e ORDER BY e.createDate ASC ";
+            var sql = $"SELECT {className}Code FROM {className}  ORDER BY createDate DESC ";
             string entityCode = _dbConnection.Query<string>(sql, commandType: CommandType.Text).FirstOrDefault(); ;
 
             return entityCode;

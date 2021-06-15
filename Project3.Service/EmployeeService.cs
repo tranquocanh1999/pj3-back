@@ -31,7 +31,8 @@ namespace Project3.Service
             if (isValid == true)
             {
                 entity.EmployeeCode = getCode("NV");
-                serviceResult.Data = _dbContext.Insert(entity);
+                var response = _dbContext.Insert(entity);
+                serviceResult.Data = response;
             }
             else
             {

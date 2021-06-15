@@ -48,11 +48,19 @@ namespace Project3
 
             services.AddScoped(typeof(IBaseService<>), typeof(BaseService<>));
             services.AddScoped<IEmployeeService, EmployeeService>();
-       
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IBillService, BillService>();
+
 
             services.AddScoped(typeof(IDbContext<>), typeof(MariaDbContext<>));
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-       
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IAuthentication, Authentication>();
+            services.AddScoped<ICustomerRepository, CustomerRespository>();
+            services.AddScoped<IBillRepository, BillRespository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

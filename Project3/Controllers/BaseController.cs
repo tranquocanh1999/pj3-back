@@ -143,8 +143,7 @@ namespace Project3.Api.Controllers
                 var res = _baseService.Insert(entity);
                 if (res.Success == false)
                     return StatusCode(400, res.Data);
-                else if (res.Success == true && (int)res.Data > 0)
-                    return StatusCode(201, res.Data);
+             
                 else return StatusCode(200, res.Data);
             }
             catch (Exception ex)

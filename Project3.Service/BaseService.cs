@@ -84,7 +84,8 @@ namespace Project3.Service
             var isValid = ValidateData(entity, erroMsg);
             if (isValid == true)
             {
-                serviceResult.Data = _dbContext.Insert(entity);
+                var response = _dbContext.Insert(entity);
+                serviceResult.Data = response;
             }
             else
             {
@@ -184,9 +185,10 @@ namespace Project3.Service
         {
 
             var queryString = $" where isDelete=0";
+        
             if (payload.Param != "")
             {
-                queryString = className == "Employee" ? queryString + $" and ({className}Code like @Param or FullName like @Param)" : queryString + $"and ({className}Code like @Param or {className}Name like @Param)";
+                queryString = className == "Employee" ? queryString + $" and ({className}Code like @Param or FullName like @Param)" : queryString + $" and ({className}Code like @Param or {className}Name like @Param)";
                 this.Parameters.Add($"@Param", $"%{payload.Param}%");
             }
             foreach (Filter filter in payload.Filter)
@@ -273,12 +275,12 @@ namespace Project3.Service
                             break;
                         }
 
-                    default:
+                    case "1":
                         {
-                            if (filter.Type != "-1")
+                            if (filter.Value1 != "-1")
                             {
                                 queryString = queryString + $" and {filter.Name} like @{filter.Name}";
-                                this.Parameters.Add($"@{filter.Name}", $"{filter.Type}");
+                                this.Parameters.Add($"@{filter.Name}", $"{filter.Value1}");
                             }
 
                             break;

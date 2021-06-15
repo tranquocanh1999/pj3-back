@@ -26,7 +26,7 @@ namespace Project3.Common.Models
         /// dữ liệu trả về 
         /// </summary>
         public object Data { get; set; }
-        public string MISACode { get; set; }
+      
 
         #endregion
     }

@@ -61,7 +61,34 @@ namespace Project3.Common.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Có lỗi xảy ra, vui lòng liên hệ Trần Quốc Anh!.
+        ///   Looks up a localized string similar to Mật khẩu không chính xác! Vui lòng nhập lại mật khẩu.
+        /// </summary>
+        public static string ChangePass_Err_Msg {
+            get {
+                return ResourceManager.GetString("ChangePass_Err_Msg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email hoặc mật khẩu không chính xác..
+        /// </summary>
+        public static string Login_Err_Msg {
+            get {
+                return ResourceManager.GetString("Login_Err_Msg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;RSAKeyValue&gt;&lt;Modulus&gt;2XH2JFw5YakSagtabOr6Qy/GBy8tY35usAOnHZ08ahIGomMLrS7MPtxK30Foa2AKaF6z/gFqrsBF+IB8yLC7UtYUatPsCz/zzlWR5jP6+SCsjv8l0bXGzPA8O31UVPUnoFFUBfL3K5ORQ8REKjlpRe6EZpLQndVRu93V8LqjOdpp7xT+zhICB9FOEGKHmOR69v+ewubsuLAC88d5ALowopm1zx5DRA6MgBFt0SId108X2JOItJ6y3NlKJhJGC8oXNduUp5SvnlKigH75mqcgBzvA1jvWbRQwDiiIIcBvPh8UXgU8qDOh24rY6Ly0e2leMdO9nZ6aEWKox4fU8otmY2q8RpswuEA0Aq3jz6A/QXy/EoW9rIA4OjfifqhY1eCSIfDAd1/YkgU7n+gxiP21HnDfj/aw9Dj+/rLva+ohy4oWZvfYxHpiCpB8tTBfiHpGCMxik2ejf9qT0Nnx/xP10zW34JSiBX0u0ByV/Ol2X7 [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string textPubkey {
+            get {
+                return ResourceManager.GetString("textPubkey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Có lỗi xảy ra, vui lòng liên hệ TQA!.
         /// </summary>
         public static string UserMsg_Exception {
             get {

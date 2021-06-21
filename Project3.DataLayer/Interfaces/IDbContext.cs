@@ -48,6 +48,15 @@ namespace Project3.DataLayer.Interfaces
         ///  Created by: TQAnh(16/03/2021)
         Entity GetByID(string value);
 
+        /// <summary>
+        /// lấy đối tượng theo id
+        /// </summary>
+        /// <param name="value">giá trị id</param>
+
+        /// <returns>trả về đối tượng </returns>
+        ///  Created by: TQAnh(16/03/2021)
+        IEnumerable<Entity> GetByIDs(string IDs);
+
 
 
         /// <summary>
@@ -57,6 +66,14 @@ namespace Project3.DataLayer.Interfaces
         /// <returns> trả về số dòng được thay đổi</returns>
         ///   Created by: TQAnh(16/03/2021)
         int Insert(Entity entity);
+
+        /// <summary>
+        /// thêm mới đối tượng 
+        /// </summary>
+        /// <param name="entity">đối tượng cần thêm mới</param>
+        /// <returns> trả về số dòng được thay đổi</returns>
+        ///   Created by: TQAnh(16/03/2021)
+        int ExecuteQuery(string sqlString);
 
         /// <summary>
         /// chỉnh sửa 1 đối tượng

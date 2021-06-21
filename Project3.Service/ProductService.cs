@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Project3.Service
 {
-   
+
     public class ProductService : BaseService<Product>, IProductService
     {
 
@@ -42,6 +42,17 @@ namespace Project3.Service
 
             }
             return serviceResult;
+        }
+
+        public ServiceResult UpdateQuantity(Product[] products)
+        {
+            var value = "";
+            foreach (Product product in products) { value += $"('{product.Id}', {product.Quantity}),"; }
+            var sqlQuerry = $"INSERT INTO product (id,quantity) VALUES {value.Substring(0,value.Length-1)}  ON DUPLICATE KEY UPDATE quantity = VALUES(quantity); ";
+
+            serviceResult.Data = _dbContext.ExecuteQuery(sqlQuerry);
+            return serviceResult;
+
         }
     }
 }

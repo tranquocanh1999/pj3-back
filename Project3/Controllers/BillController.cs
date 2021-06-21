@@ -15,17 +15,13 @@ namespace Project3.Api.Controllers
     [ApiController]
     public class BillController : BaseController<Bill>
     {
-        public BillController(IBillService billService) : base(billService)
+        private IProductService productService ; 
+        public BillController(IBillService billService, IProductService _productService) : base(billService)
         {
-
+            productService = _productService;
         }
 
-        /// <summary>
-        /// Thêm mới 1 thực thể 
-        /// </summary>
-        /// <param name="entity"> Thực thể mới </param>
-        /// <returns></returns>
-        /// Created by: TQAnh(16/03/2021)
+   
         [HttpPost("pay-momo")]
         public IActionResult PayMoMo(Bill entity)
         {
@@ -98,5 +94,27 @@ namespace Project3.Api.Controllers
                 return StatusCode(500, serviceResult.Data);
             }
         }
-    }
+
+        [HttpPost("update-quantity")]
+        public IActionResult UpdateQuantity(Product[] products)
+        {
+            try
+            {
+                var res = productService.UpdateQuantity(products);
+                if (res.Success == false)
+                    return StatusCode(400, res.Data);
+
+                else return StatusCode(200, res.Data);
+            }
+            catch (Exception ex)
+            {
+                var serviceResult = new ServiceResult();
+                var erroMsg = new ErroMsg();
+                erroMsg.UserMsg.Add(Project3.Common.Properties.Resource.UserMsg_Exception);
+                erroMsg.DevMsg = ex.ToString();
+                serviceResult.Data = erroMsg;
+                return StatusCode(500, serviceResult.Data);
+            }
+        }
+        }
 }

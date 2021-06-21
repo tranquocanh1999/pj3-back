@@ -152,6 +152,24 @@ namespace Project3.DataLayer
             return entityCode;
         }
 
+        public int ExecuteQuery(string sqlString)
+        {
+
+            var efectRows = _dbConnection.Execute(sqlString, commandType: CommandType.Text);
+            return efectRows;
+        }
+
+        public IEnumerable<Entity> GetByIDs(string IDs)
+        {
+            var sqlQuery = $"SELECT * FROM {className} e WHERE e.id IN({IDs});";
+            // thực thi truy vấn
+
+            var entities = _dbConnection.Query<Entity>(sqlQuery, commandType: CommandType.Text);
+
+            // trả về cho client
+            return entities;
+        }
+
 
         #endregion
     }

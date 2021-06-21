@@ -10,5 +10,10 @@ namespace Project3.Service.Interfaces
 
     public interface IProductService : IBaseService<Product>
     {
+
+
+        ServiceResult UpdateQuantity(Product[] products);
     }
+
+
 }

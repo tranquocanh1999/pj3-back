@@ -109,6 +109,13 @@ namespace Project3.Service
             return serviceResult;
         }
 
+        public ServiceResult GetByIDs(string IDs)
+        {
+            serviceResult.Data = _dbContext.GetByIDs(IDs);
+            return serviceResult;
+        }
+
+
 
         /// <summary>
         /// lấy dữ liệu theo id
@@ -188,8 +195,16 @@ namespace Project3.Service
         
             if (payload.Param != "")
             {
-                queryString = className == "Employee" ? queryString + $" and ({className}Code like @Param or FullName like @Param)" : queryString + $" and ({className}Code like @Param or {className}Name like @Param)";
-                this.Parameters.Add($"@Param", $"%{payload.Param}%");
+                if (className != "Bill")
+                {
+                    queryString = className == "Employee" ? queryString + $" and ({className}Code like @Param or FullName like @Param)" : queryString + $" and ({className}Code like @Param or {className}Name like @Param)";
+                    this.Parameters.Add($"@Param", $"%{payload.Param}%");
+                }
+                else
+                {
+                    queryString = queryString + $" and {className}Code like @Param";
+                    this.Parameters.Add($"@Param", $"%{payload.Param}%");
+                }
             }
             foreach (Filter filter in payload.Filter)
             {
@@ -295,6 +310,7 @@ namespace Project3.Service
             return "";
         }
 
+  
         #endregion
     }
 }

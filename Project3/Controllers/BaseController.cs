@@ -225,6 +225,36 @@ namespace Project3.Api.Controllers
             }
         }
 
+
+    
+
+        [HttpPost("ids")]
+        public IActionResult GetByIds([FromBody] String id)
+        {
+
+            try
+            {
+
+                var res = _baseService.GetByIDs(id);
+
+
+                if (res.Success == false)
+                    return StatusCode(400, res.Data);
+
+                else return StatusCode(200, res.Data);
+            }
+            catch (Exception ex)
+            {
+                var serviceResult = new ServiceResult();
+                var erroMsg = new ErroMsg();
+                erroMsg.UserMsg.Add(Project3.Common.Properties.Resource.UserMsg_Exception);
+                erroMsg.DevMsg = ex.ToString();
+                serviceResult.Data = erroMsg;
+
+                return StatusCode(500, serviceResult.Data);
+            }
+        }
+
         /// <summary>
         /// Xóa một thực thể 
         /// </summary>

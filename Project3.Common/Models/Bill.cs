@@ -36,7 +36,16 @@ namespace Project3.Common.Models
         /// </summary>
         public string CustomerName { get; set; }
 
+        /// <summary>
+        /// trạng thái đơn hàng
+        /// </summary>
+        public string Status { get; set; }
 
+
+        /// <summary>
+        /// Mô tả đơn hàng
+        /// </summary>
+        public string Description { get; set; }
 
         public long Amount { get; set; }
 

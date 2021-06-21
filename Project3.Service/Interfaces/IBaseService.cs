@@ -54,5 +54,12 @@ namespace Project3.Service.Interfaces
         /// </summary>
         /// <param name="id">khóa chính đối tượng cần xóa</param>
         ServiceResult Delete(String IDs);
+
+        /// <summary>
+        /// lấy dữ liệu theo id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        ServiceResult GetByIDs(string IDs);
     }
 }
